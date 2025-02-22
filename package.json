@@ -9,7 +9,7 @@
     "lint": "next lint",
     "clean": "rimraf .next && rimraf dist && rimraf out",
     "update-deps": "npx --yes npm-check-updates -u && pnpm",
-    "preview": "next build && next start",
+    "preview": "next install && next start",
     "prettier": "prettier -write .",
     "studio": "prisma studio",
     "postinstall": "prisma generate"
